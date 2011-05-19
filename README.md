@@ -1,7 +1,9 @@
 
 # NGen Template Using NPM
 
- This is an example of a ngen template. You can find out more about ngen at [github.com/visionmedia/ngen](https://github.com/visionmedia/ngen). Basically nget creates a project skeleton for you by taking a template and asking you a few questions that it will substitute your answers to make a custom version of the template. This time saver makes it a breeze to setup a new project without having to copy, rename files, and scrubbing out existing code from your files.
+ Template for TJ's ngen tool.
+
+ Agian TJ has build an amazingly simple but powerful tool to make our development life easier. Thanks TJ! nget is nodejs package generator to find out more about this you can visit [github.com/visionmedia/ngen](https://github.com/visionmedia/ngen). Basically nget creates a project skeleton for you by taking a template and asking you a few questions that it will substitute your answers to make a custom version of the template. This time saver makes it a breeze to setup a new project without having to copy, rename files, and scrubbing out existing code from your files.
 
  To get started, you will need to create a file that defines the questions you are going to ask the user. We will use this list of answers later in the substitution phase. Here is an example below, look at the lable and then string. The lable is what is substituted in the template and the string is the prompt the user sees.
 
