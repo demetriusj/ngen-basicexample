@@ -15,7 +15,7 @@
 	./content/{{name}}.js  -> your_new_project/fooman.js
   console.log('{{name}}'); -> console.log('fooman');
 
- We are almost done, the last step is to add the template to your private npm registry or share it with the world by publishing it. as a convention I recommend naming your template ngen-somthing for example, if you have a template for connect it would be ngen-connect.
+ We are almost done, the last step is to add the template to your private npm registry or share it with the world by publishing it. as a convention I recommend naming your template ngen-somthing for example, if you have a template for connect it would be ngen-connect. Just rememeber to make "Main module/entry point" index.js.
 
 	$ npm adduser
 	$ npm init
